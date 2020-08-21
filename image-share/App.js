@@ -79,7 +79,7 @@ export default function App () {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#000',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -91,21 +91,23 @@ const styles = StyleSheet.create({
   },
 
   message: {
-    color: '#888',
+    color: '#f0f0f0',
     fontSize: 18,
     marginHorizontal: 15,
     marginBottom: 20,
+    textAlign: 'center',
   },
 
   button: {
-    backgroundColor: 'blue',
-    padding: 20,
+    backgroundColor: '#f0f0f0',
+    paddingVertical: 10,
+    paddingHorizontal: 20,
     borderRadius: 5,
   },
 
   buttonText: {
-    fontSize: 20,
-    color: '#fff',
+    fontSize: 16,
+    color: '#000',
   },
 
   thumbnail: {
